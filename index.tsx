@@ -166,8 +166,8 @@ function SwitchToggle(props: Props): React.ReactElement {
                   translateX: animXValue.interpolate({
                     inputRange: [0, 1],
                     outputRange: [
-                      circlePosXStart as string | number,
                       circlePosXEnd as string | number,
+                      circlePosXStart as string | number,                      
                     ] as string[] | number[],
                   }),
                 },
